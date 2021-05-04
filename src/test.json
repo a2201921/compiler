@@ -1,0 +1,79 @@
+{
+    "type": "Program",
+    "body": [
+      {
+        "type": "ExpressionStatement",
+        "expression": {
+          "type": "CallExpression",
+          "callee": {
+            "type": "MemberExpression",
+            "object": {
+              "type": "Identifier",
+              "name": "React"
+            },
+            "property": {
+              "type": "Identifier",
+              "name": "createElement"
+            }
+          },
+          "_arguments": [
+            {
+              "type": "StringLiteral",
+              "value": "h1"
+            },
+            {
+              "type": "ObjectExpression",
+              "properities": [
+                {
+                  "type": "Property",
+                  "key": {
+                    "type": "Identifier",
+                    "name": "id"
+                  },
+                  "value": {
+                    "type": "StringLiteral",
+                    "value": "\"title\""
+                  }
+                }
+              ]
+            },
+            [
+              {
+                "type": "CallExpression",
+                "callee": {
+                  "type": "MemberExpression",
+                  "object": {
+                    "type": "Identifier",
+                    "name": "React"
+                  },
+                  "property": {
+                    "type": "Identifier",
+                    "name": "createElement"
+                  }
+                },
+                "_arguments": [
+                  {
+                    "type": "StringLiteral",
+                    "value": "span"
+                  },
+                  {
+                    "type": "NullLiteral"
+                  },
+                  [
+                    {
+                      "type": "StringLiteral",
+                      "value": "hello"
+                    }
+                  ]
+                ]
+              },
+              {
+                "type": "StringLiteral",
+                "value": "world"
+              }
+            ]
+          ]
+        }
+      }
+    ]
+  }
